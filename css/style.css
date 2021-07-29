@@ -24,4 +24,9 @@
 .position{
     position: relative; 
 }
-
+.img-gryscall{
+    filter: grayscale(1);
+}
+.footer-bg-color{
+    background-color: #264653c2;
+}

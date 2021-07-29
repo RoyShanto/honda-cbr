@@ -20,13 +20,13 @@
             <nav>
                 <ul class="nav nav-pills justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Home</a>
+                        <a class="nav-link text-white" href="#scrollspyHeading1">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Shop</a>
+                        <a class="nav-link text-white" href="#scrollspyHeading2">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">News</a>
+                        <a class="nav-link text-white" href="#scrollspyHeading3">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#">Contact</a>
@@ -40,8 +40,8 @@
 
             <section class="py-5">
                 <div class="row">
-                    <div class="col-md-6 pb-5">
-                        <div class="justify-content-center align-items-center">
+                    <div class="col-md-6 pb-5 pt-5">
+                        <div class="justify-content-center align-items-center pt-5">
                             <p style="font-size: 13px;">Computer-controlled digital
                                 transistorized with electronic
                                 advance</p>
@@ -66,7 +66,7 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
-                                            <p class="text-dark">it is th model</p>
+                                            <p class="text-dark">it is the model</p>
                                         </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
@@ -90,10 +90,20 @@
         <section class="d-flex align-items-center flex-column">
             <h1>Fetured Bikes 2021</h1>
             <h4 class="font-color fw-bold">Best bike collection</h4>
-            <hr class="font-color" style="width: 100px; height: 2px; margin-top: -3px;">
+            <hr class="font-color" style="width: 100px; height: 2px; margin-top: -3px;margin-bottom: 100px;">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"><img src="images/feature-bike.jpg" alt="" class="img-fluid img-gryscall">
+                    </div>
+                    <div class="col-md-4"><img src="images/feature-bike.jpg" alt="" class="img-fluid"></div>
+                    <div class="col-md-4"><img src="images/feature-bike.jpg" alt="" class="img-fluid img-gryscall">
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- Happy clients say -->
-        <section class="container mb-5">
+        <section class="container mb-5" id="scrollspyHeading1">
             <h1 class="fw-bold py-5 text-center">Happy <span class="font-color"> Clients say</span></h1>
 
             <div class="row g-4 text-center justify-content-center">
@@ -157,64 +167,155 @@
             </div>
         </section>
         <!-- Frequently Asked Questions -->
-        <section class="container d-flex align-items-center flex-column mb-5">
+        <section class="container d-flex align-items-center flex-column mb-5" id="scrollspyHeading2">
             <h1 class="fw-bold py-5">Frequently Asked <span class="font-color">Questions</span></h1>
 
-
             <div class="row">
-                <div class="col-md-6"><img src="images/faq.png" alt="" class="d-inline-block align-text-top img-fluid">
+                <div class="col-md-6"><img src="images/faq.png" alt="" class="d-inline-block align-text-top w-75">
                 </div>
-
-
 
                 <div class="col-md-6">
                     <!-- Example single danger button -->
-                    <div class="btn-group border border-1 rounded position">
-                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            What are the most important things I should<br>
-                            know about riding a bike?
-                        </button>
-                        <ul class="dropdown-menu">
-                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+
+                    <div class="pb-3 border border-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn w-100" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample1" aria-expanded="false"
+                                aria-controls="multiCollapseExample1">What are the most important things I should<br>
+                                know about riding a bike?</div><i class="fas fa-chevron-circle-down"
+                                data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false"
+                                aria-controls="multiCollapseExample1"></i>
+                        </div>
+                        <div class="collapse" id="multiCollapseExample1">
+                            <div class="card card-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
                                 laws.
-                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
+                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help
                                 you be
-                                a more focused and legally compliant bike rider. </p>
-                        </ul>
+                                a more focused and legally compliant bike rider.
+                            </div>
+                        </div>
                     </div>
-                    <div class="btn-group">
-                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            What are the most important things I should<br>
-                            know about riding a bike?
-                        </button>
-                        <ul class="dropdown-menu">
-                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                    <div class="pb-3 border border-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn w-100" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                                aria-controls="multiCollapseExample2">How can I tell if my helmet is old and I need a
+                                new one?</div><i class="fas fa-chevron-circle-down" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                                aria-controls="multiCollapseExample2"></i>
+                        </div>
+                        <div class="collapse" id="multiCollapseExample2">
+                            <div class="card card-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
                                 laws.
-                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
+                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help
                                 you be
-                                a more focused and legally compliant bike rider. </p>
-                        </ul>
+                                a more focused and legally compliant bike rider.
+                            </div>
+                        </div>
                     </div>
-                    <div class="btn-group">
-                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            What are the most important things I should<br>
-                            know about riding a bike?
-                        </button>
-                        <ul class="dropdown-menu">
-                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                    <div class="pb-3 border border-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn w-100" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                                aria-controls="multiCollapseExample3">My bike has been in storage is it safe to ride?
+                            </div><i class="fas fa-chevron-circle-down" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                                aria-controls="multiCollapseExample3"></i>
+                        </div>
+                        <div class="collapse" id="multiCollapseExample3">
+                            <div class="card card-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
                                 laws.
-                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will help
+                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help
                                 you be
-                                a more focused and legally compliant bike rider. </p>
-                        </ul>
+                                a more focused and legally compliant bike rider.
+                            </div>
+                        </div>
                     </div>
+                    <div class="pb-3 border border-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn w-100" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample4" aria-expanded="false"
+                                aria-controls="multiCollapseExample4">What rules should I follow when riding my bike?
+                            </div><i class="fas fa-chevron-circle-down" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample4" aria-expanded="false"
+                                aria-controls="multiCollapseExample4"></i>
+                        </div>
+                        <div class="collapse" id="multiCollapseExample4">
+                            <div class="card card-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                laws.
+                                Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help
+                                you be
+                                a more focused and legally compliant bike rider.
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
                 </div>
 
 
 
+            </div>
+        </section>
+        <!-- Extra Section for Bonus -->
+        <section class="footer-bg-color pt-5" id="scrollspyHeading3">
+
+            <div class="d-flex justify-content-center align-items-center flex-column">
+                <i class="far fa-bell-slash"></i>
+                <h1>Subscribe to receive updates!</h1>
+
+                <div class="input-group mb-3" style="width: 800px; height: 50px;">
+                    <input type="text" class="form-control" placeholder="exemple@example.com">&nbsp;&nbsp;&nbsp;<button
+                        type="button" class="btn btn-secondary px-5">NOTIFY ME</button>
+                </div>
+            </div>
+
+            <div class="container py-5">
+                <div class="row g-4 py-5">
+                    <div class="col-md-4">
+                        <div class="card h-100 py-5 d-flex align-items-center flex-column text-center">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <p style="padding-bottom: 0px;">ADDRESS</p>
+                            <hr style="width: 100px; margin-top: -4px;">
+                            <div class="card-body">
+                                <p class="card-text">4923 Market Street, Orlando FL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 py-5 d-flex align-items-center flex-column text-center">
+                            <i class="far fa-envelope"></i>
+                            <p style="padding-bottom: 0px;">Email</p>
+                            <hr style="width: 100px; margin-top: -4px;">
+                            <div class="card-body">
+                                <p class="card-text">hello@yourdomain.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 py-5 d-flex align-items-center flex-column text-center">
+                            <i class="fas fa-mobile-alt"></i>
+                            <p style="padding-bottom: 0px;">PHONE</p>
+                            <hr style="width: 100px; margin-top: -4px;">
+                            <div class="card-body">
+                                <p class="card-text">+1 (555) 902-8832</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="text-center">Copyright © Your Website 2021</p>
             </div>
         </section>
     </main>
