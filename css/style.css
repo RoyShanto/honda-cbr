@@ -1,0 +1,27 @@
+/* Font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header-bg-color{
+    background-color: #264653;
+}
+.fm-Poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.button-color{
+    background-color: #E76F51;
+}
+.button-style{
+    padding: 10px 45px;
+    margin-top: 5px;
+}
+.font-color, .star-color{
+    color: #E76F51;
+}
+.client-img{
+    width: 149px;
+    height: 149px;
+}
+.position{
+    position: relative; 
+}
+
